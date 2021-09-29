@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:fontFamily="@font/sanfranciscodisplay_regular"
+        android:textStyle="bold"
+        android:textColor="#3e3b3b"
+        android:textSize="26sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/textviewtitleplaylist"
+        android:text="Top playlist of the Bill's Music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:layout_below="@+id/textviewtitleplaylist"
+        android:id="@+id/listviewplaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <TextView
+        android:fontFamily="@font/sanfranciscotext_regular"
+        android:text="MORE"
+        android:textSize="19sp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/iconmoreplaylist"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/listviewplaylist"
+        android:id="@+id/textviewviewmoreplaylist"
+        android:background="#c9c7c7"
+        android:layout_marginTop="8dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#0a0a0a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
